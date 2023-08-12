@@ -25,4 +25,8 @@ export const config: Config = {
   testing: {
     browserHeadless: "new",
   },
+  extras: {
+    appendChildSlotFix: true,
+    slotChildNodesFix: true,
+  }
 };
